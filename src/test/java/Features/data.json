@@ -1,0 +1,10 @@
+{
+  "firstRequest": {
+  "name": "semih",
+  "job": "saydam"
+  },
+  "secondRequest": {
+    "name":"ahmet",
+    "job": "qa"
+  }
+}
