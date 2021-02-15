@@ -1,0 +1,11 @@
+{
+  "name": "emih",
+  "username": "semihsaydamz",
+  "email": "semihsaydamz@gmail.com",
+  "address":{
+    "street": "Hatip",
+    "suite": "baglık",
+    "city": "zonguldak",
+    "zipcode": "67300",
+  }
+}
