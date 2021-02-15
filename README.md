@@ -1,1 +1,1 @@
-# karateEgitim
+# karate
