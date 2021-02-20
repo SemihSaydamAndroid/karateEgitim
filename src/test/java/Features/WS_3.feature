@@ -11,4 +11,6 @@ Feature: Karate Dss
     * status 200
     * print 'Çalışma zamanım : ',responseTime/1000, ' saniye şeklindedir.'
     * assert responseTime < 4000
+    * def succesArea = response.info.cause
+    * match succesArea == 'MBL00000'
 

@@ -1,21 +1,19 @@
 Feature: API Authentication
   Background:
-
     * url 'https://reqres.in/api/register'
 
   @Get
     Scenario: Successful register
 
-      * def params =
+      * def requestBody =
       """
         {
            "email": "eve.holt@reqres.in",
            "password": "pistol"
         }
       """
-#     And form fields params
-     And request params
-     When method post
+     And request requestBody
+     When method POST
      Then status 200
      Then print 'response-----', response
 
