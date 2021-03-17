@@ -1,0 +1,45 @@
+23:28:08.460 found scenario at line: 4 - ^create a user$
+23:28:08.701 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:28:08.853 [print] burası ilk print {
+  "name": "mehmet",
+  "job": "sdfasdf"
+}
+
+23:28:09.921 request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 33
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+{"name":"mehmet","job":"sdfasdf"}
+
+23:28:10.864 response time in milliseconds: 938.19
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 624af8f759bcfc99-VIE
+1 < Connection: keep-alive
+1 < Content-Length: 83
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 20 Feb 2021 20:28:10 GMT
+1 < Etag: W/"53-AxbUoDxmvQOUSgNB8hh24yUm1i0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=JY3BoQHT3mdHxKoLqXoZM5iFnEjr59b3w%2FsfeplbA85U%2FUORn0epPqywZ0hed2aMF2XuS%2BNQBgcQ%2B%2FTJjvJ1iJ9eaD2Iv3JrtiU%3D"}],"max_age":604800}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d785a9e25e1dd6a331a5d1597ed06dd6e1613852890; expires=Mon, 22-Mar-21 20:28:10 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0862b9ee930000fc99951fe000000001
+{"name":"mehmet","job":"sdfasdf","id":"295","createdAt":"2021-02-20T20:28:10.863Z"}
+
+23:28:10.870 [print] {
+  "name": "mehmet",
+  "job": "sdfasdf",
+  "id": "295",
+  "createdAt": "2021-02-20T20:28:10.863Z"
+}
+
+27:23.829 assertion failed: path: $, actual: 'mehmet', expected: 'mehmetsssssss', reason: not equal

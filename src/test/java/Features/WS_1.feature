@@ -1,4 +1,4 @@
-Feature: WS1
+Feature: sdfasd
 
   Background:
     * url 'https://reqres.in/'
@@ -9,19 +9,7 @@ Feature: WS1
     When method GET
     Then status 200
     Then print response
-
-  @tag1
-  Scenario: Http 200 asdasd
-    Given path 'api/users?page=3'
-    When method GET
-    Then status 200
-    Then print response
-
-  ## sdfasdf
-
-
-
-
+    * match response.data[*].id[0] == 1
 
 
 

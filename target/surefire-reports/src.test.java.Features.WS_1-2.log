@@ -1,0 +1,86 @@
+13:37:52.977 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:37:52.986 request:
+1 > GET https://reqres.in/api/users%3Fpage=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+
+13:37:53.402 response time in milliseconds: 414.75
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: MISS
+1 < CF-RAY: 631596a84dec38b0-VIE
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 17 Mar 2021 10:37:53 GMT
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2BVFw%2Fj83NsPHWgzHT7dWOE9RVUWwTWB0JCFlZmcjlmT%2BV9VpOenf76bfouqGB%2BO%2BE2xnVJpgj1zo5M%2BsZbYoMCP4PB382ssNNpo%3D"}],"group":"cf-nel"}
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d68b5c8731892ce00c0678a2c80074d161615977473; expires=Fri, 16-Apr-21 10:37:53 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+1 < cf-request-id: 08e15c7d31000038b0c3886000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+13:37:53.403 [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "name": "cerulean",
+      "year": 2000,
+      "color": "#98B2D1",
+      "pantone_value": "15-4020"
+    },
+    {
+      "id": 2,
+      "name": "fuchsia rose",
+      "year": 2001,
+      "color": "#C74375",
+      "pantone_value": "17-2031"
+    },
+    {
+      "id": 3,
+      "name": "true red",
+      "year": 2002,
+      "color": "#BF1932",
+      "pantone_value": "19-1664"
+    },
+    {
+      "id": 4,
+      "name": "aqua sky",
+      "year": 2003,
+      "color": "#7BC4C4",
+      "pantone_value": "14-4811"
+    },
+    {
+      "id": 5,
+      "name": "tigerlily",
+      "year": 2004,
+      "color": "#E2583E",
+      "pantone_value": "17-1456"
+    },
+    {
+      "id": 6,
+      "name": "blue turquoise",
+      "year": 2005,
+      "color": "#53B0AE",
+      "pantone_value": "15-5217"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+
